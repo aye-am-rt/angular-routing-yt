@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.main-div{
+    text-align: center; 
+    min-width:100%; 
+    background-color: rgb(93, 230, 30);
+}
+.btn{
+    margin-right: 100px;
+}
+.btn > a{
+    color: red;
+    text-decoration: none;
+}
+.btn-nav{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+a {
+    cursor: pointer;
+    cursor: hand;
+  }
+  button {
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  button:hover {
+    background-color: #12a8e9;
+  }
